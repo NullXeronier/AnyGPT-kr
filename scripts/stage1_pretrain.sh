@@ -4,7 +4,8 @@
 
 METAROOT="Path-to-pretrained-model" 
 # https://huggingface.co/fnlp/AnyGPT-base
-METAROOT="/mnt/petrelfs/share_data/llama2_hf/llama-2-7b-hf" 
+METAROOT="meta-llama/Llama-3.2-3B"
+#/mnt/petrelfs/share_data/llama2_hf/llama-2-7b-hf" 
 DATAROOT="./data"
 
 OUTROOT="output_models/pretrain"
