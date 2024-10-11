@@ -29,9 +29,9 @@ Demos are shown in [project page](https://junzhan2000.github.io/AnyGPT.github.io
 ## Open-Source Checklist
 
 - [X] Base Model
-- [X] Chat Model
-- [X] Inference Code
-- [X] Instruction Dataset
+- [ ] Chat Model
+- [ ] Inference Code
+- [ ] Instruction Dataset
 
 ## Inference
 
