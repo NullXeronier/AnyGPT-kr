@@ -13,7 +13,7 @@ from einops import rearrange, reduce, repeat
 from einops.layers.torch import Rearrange, EinMix
 
 from beartype import beartype
-from beartype.typing import Union, Dict
+from beartype.typing import Union, Dict, Any
 
 from .attend import Attend
 
@@ -485,7 +485,7 @@ class ConformerWrapper(nn.Module):
         *,
         codebook_size,
         num_quantizers,
-        conformer: Union[Conformer, Dict[str, any]],
+        conformer: Union[Conformer, Dict[str, Any]],
         grouped_quantizers = 1
     ):
         super().__init__()
